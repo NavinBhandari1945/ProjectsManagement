@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\College Workplace\\3rdyr\\sem\\data,web development\\cw\\WEB APP\\DB_CW_SEM2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8DFEFDDE-12EF-4770-992A-29310BE2B52A}|DB_CW_SEM2\\DB_CW_SEM2.csproj|d:\\college workplace\\3rdyr\\sem\\data,web development\\cw\\web app\\db_cw_sem2\\db_cw_sem2\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8DFEFDDE-12EF-4770-992A-29310BE2B52A}|DB_CW_SEM2\\DB_CW_SEM2.csproj|solutionrelative:db_cw_sem2\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DFEFDDE-12EF-4770-992A-29310BE2B52A}|DB_CW_SEM2\\DB_CW_SEM2.csproj|d:\\college workplace\\3rdyr\\sem\\data,web development\\cw\\web app\\db_cw_sem2\\db_cw_sem2\\usermanual.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8DFEFDDE-12EF-4770-992A-29310BE2B52A}|DB_CW_SEM2\\DB_CW_SEM2.csproj|solutionrelative:db_cw_sem2\\usermanual.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DFEFDDE-12EF-4770-992A-29310BE2B52A}|DB_CW_SEM2\\DB_CW_SEM2.csproj|d:\\college workplace\\3rdyr\\sem\\data,web development\\cw\\web app\\db_cw_sem2\\db_cw_sem2\\usertask.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8DFEFDDE-12EF-4770-992A-29310BE2B52A}|DB_CW_SEM2\\DB_CW_SEM2.csproj|solutionrelative:db_cw_sem2\\usertask.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DFEFDDE-12EF-4770-992A-29310BE2B52A}|DB_CW_SEM2\\DB_CW_SEM2.csproj|d:\\college workplace\\3rdyr\\sem\\data,web development\\cw\\web app\\db_cw_sem2\\db_cw_sem2\\userproject.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8DFEFDDE-12EF-4770-992A-29310BE2B52A}|DB_CW_SEM2\\DB_CW_SEM2.csproj|solutionrelative:db_cw_sem2\\userproject.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DFEFDDE-12EF-4770-992A-29310BE2B52A}|DB_CW_SEM2\\DB_CW_SEM2.csproj|d:\\college workplace\\3rdyr\\sem\\data,web development\\cw\\web app\\db_cw_sem2\\db_cw_sem2\\projectmilestone.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8DFEFDDE-12EF-4770-992A-29310BE2B52A}|DB_CW_SEM2\\DB_CW_SEM2.csproj|solutionrelative:db_cw_sem2\\projectmilestone.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DFEFDDE-12EF-4770-992A-29310BE2B52A}|DB_CW_SEM2\\DB_CW_SEM2.csproj|D:\\College Workplace\\3rdyr\\sem\\data,web development\\cw\\WEB APP\\DB_CW_SEM2\\db_cw_sem2\\user.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8DFEFDDE-12EF-4770-992A-29310BE2B52A}|DB_CW_SEM2\\DB_CW_SEM2.csproj|solutionrelative:db_cw_sem2\\user.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DFEFDDE-12EF-4770-992A-29310BE2B52A}|DB_CW_SEM2\\DB_CW_SEM2.csproj|D:\\College Workplace\\3rdyr\\sem\\data,web development\\cw\\WEB APP\\DB_CW_SEM2\\db_cw_sem2\\project.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8DFEFDDE-12EF-4770-992A-29310BE2B52A}|DB_CW_SEM2\\DB_CW_SEM2.csproj|solutionrelative:db_cw_sem2\\project.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DFEFDDE-12EF-4770-992A-29310BE2B52A}|DB_CW_SEM2\\DB_CW_SEM2.csproj|D:\\College Workplace\\3rdyr\\sem\\data,web development\\cw\\WEB APP\\DB_CW_SEM2\\db_cw_sem2\\task.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8DFEFDDE-12EF-4770-992A-29310BE2B52A}|DB_CW_SEM2\\DB_CW_SEM2.csproj|solutionrelative:db_cw_sem2\\task.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DFEFDDE-12EF-4770-992A-29310BE2B52A}|DB_CW_SEM2\\DB_CW_SEM2.csproj|D:\\College Workplace\\3rdyr\\sem\\data,web development\\cw\\WEB APP\\DB_CW_SEM2\\db_cw_sem2\\milestone.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8DFEFDDE-12EF-4770-992A-29310BE2B52A}|DB_CW_SEM2\\DB_CW_SEM2.csproj|solutionrelative:db_cw_sem2\\milestone.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DFEFDDE-12EF-4770-992A-29310BE2B52A}|DB_CW_SEM2\\DB_CW_SEM2.csproj|d:\\college workplace\\3rdyr\\sem\\data,web development\\cw\\web app\\db_cw_sem2\\db_cw_sem2\\subtask.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8DFEFDDE-12EF-4770-992A-29310BE2B52A}|DB_CW_SEM2\\DB_CW_SEM2.csproj|solutionrelative:db_cw_sem2\\subtask.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.aspx",
+              "DocumentMoniker": "D:\\College Workplace\\3rdyr\\sem\\data,web development\\cw\\WEB APP\\DB_CW_SEM2\\DB_CW_SEM2\\Home.aspx",
+              "RelativeDocumentMoniker": "DB_CW_SEM2\\Home.aspx",
+              "ToolTip": "D:\\College Workplace\\3rdyr\\sem\\data,web development\\cw\\WEB APP\\DB_CW_SEM2\\DB_CW_SEM2\\Home.aspx*",
+              "RelativeToolTip": "DB_CW_SEM2\\Home.aspx*",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-15T09:45:15.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserManual.aspx",
+              "DocumentMoniker": "D:\\College Workplace\\3rdyr\\sem\\data,web development\\cw\\WEB APP\\DB_CW_SEM2\\DB_CW_SEM2\\UserManual.aspx",
+              "RelativeDocumentMoniker": "DB_CW_SEM2\\UserManual.aspx",
+              "ToolTip": "D:\\College Workplace\\3rdyr\\sem\\data,web development\\cw\\WEB APP\\DB_CW_SEM2\\DB_CW_SEM2\\UserManual.aspx*",
+              "RelativeToolTip": "DB_CW_SEM2\\UserManual.aspx*",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-15T08:17:22.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserTask.aspx",
+              "DocumentMoniker": "D:\\College Workplace\\3rdyr\\sem\\data,web development\\cw\\WEB APP\\DB_CW_SEM2\\DB_CW_SEM2\\UserTask.aspx",
+              "RelativeDocumentMoniker": "DB_CW_SEM2\\UserTask.aspx",
+              "ToolTip": "D:\\College Workplace\\3rdyr\\sem\\data,web development\\cw\\WEB APP\\DB_CW_SEM2\\DB_CW_SEM2\\UserTask.aspx*",
+              "RelativeToolTip": "DB_CW_SEM2\\UserTask.aspx*",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-15T08:16:55.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserProject.aspx",
+              "DocumentMoniker": "D:\\College Workplace\\3rdyr\\sem\\data,web development\\cw\\WEB APP\\DB_CW_SEM2\\DB_CW_SEM2\\UserProject.aspx",
+              "RelativeDocumentMoniker": "DB_CW_SEM2\\UserProject.aspx",
+              "ToolTip": "D:\\College Workplace\\3rdyr\\sem\\data,web development\\cw\\WEB APP\\DB_CW_SEM2\\DB_CW_SEM2\\UserProject.aspx*",
+              "RelativeToolTip": "DB_CW_SEM2\\UserProject.aspx*",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-15T06:15:17.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProjectMilestone.aspx",
+              "DocumentMoniker": "D:\\College Workplace\\3rdyr\\sem\\data,web development\\cw\\WEB APP\\DB_CW_SEM2\\DB_CW_SEM2\\ProjectMilestone.aspx",
+              "RelativeDocumentMoniker": "DB_CW_SEM2\\ProjectMilestone.aspx",
+              "ToolTip": "D:\\College Workplace\\3rdyr\\sem\\data,web development\\cw\\WEB APP\\DB_CW_SEM2\\DB_CW_SEM2\\ProjectMilestone.aspx*",
+              "RelativeToolTip": "DB_CW_SEM2\\ProjectMilestone.aspx*",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-15T06:14:20.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.aspx",
+              "DocumentMoniker": "D:\\College Workplace\\3rdyr\\sem\\data,web development\\cw\\WEB APP\\DB_CW_SEM2\\DB_CW_SEM2\\User.aspx",
+              "RelativeDocumentMoniker": "DB_CW_SEM2\\User.aspx",
+              "ToolTip": "D:\\College Workplace\\3rdyr\\sem\\data,web development\\cw\\WEB APP\\DB_CW_SEM2\\DB_CW_SEM2\\User.aspx*",
+              "RelativeToolTip": "DB_CW_SEM2\\User.aspx*",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-05T20:43:51.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Project.aspx",
+              "DocumentMoniker": "D:\\College Workplace\\3rdyr\\sem\\data,web development\\cw\\WEB APP\\DB_CW_SEM2\\DB_CW_SEM2\\Project.aspx",
+              "RelativeDocumentMoniker": "DB_CW_SEM2\\Project.aspx",
+              "ToolTip": "D:\\College Workplace\\3rdyr\\sem\\data,web development\\cw\\WEB APP\\DB_CW_SEM2\\DB_CW_SEM2\\Project.aspx*",
+              "RelativeToolTip": "DB_CW_SEM2\\Project.aspx*",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-05T20:43:53.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Task.aspx",
+              "DocumentMoniker": "D:\\College Workplace\\3rdyr\\sem\\data,web development\\cw\\WEB APP\\DB_CW_SEM2\\DB_CW_SEM2\\Task.aspx",
+              "RelativeDocumentMoniker": "DB_CW_SEM2\\Task.aspx",
+              "ToolTip": "D:\\College Workplace\\3rdyr\\sem\\data,web development\\cw\\WEB APP\\DB_CW_SEM2\\DB_CW_SEM2\\Task.aspx*",
+              "RelativeToolTip": "DB_CW_SEM2\\Task.aspx*",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-05T20:43:55.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Milestone.aspx",
+              "DocumentMoniker": "D:\\College Workplace\\3rdyr\\sem\\data,web development\\cw\\WEB APP\\DB_CW_SEM2\\DB_CW_SEM2\\Milestone.aspx",
+              "RelativeDocumentMoniker": "DB_CW_SEM2\\Milestone.aspx",
+              "ToolTip": "D:\\College Workplace\\3rdyr\\sem\\data,web development\\cw\\WEB APP\\DB_CW_SEM2\\DB_CW_SEM2\\Milestone.aspx*",
+              "RelativeToolTip": "DB_CW_SEM2\\Milestone.aspx*",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-05T18:49:38.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SubTask.aspx",
+              "DocumentMoniker": "D:\\College Workplace\\3rdyr\\sem\\data,web development\\cw\\WEB APP\\DB_CW_SEM2\\DB_CW_SEM2\\SubTask.aspx",
+              "RelativeDocumentMoniker": "DB_CW_SEM2\\SubTask.aspx",
+              "ToolTip": "D:\\College Workplace\\3rdyr\\sem\\data,web development\\cw\\WEB APP\\DB_CW_SEM2\\DB_CW_SEM2\\SubTask.aspx*",
+              "RelativeToolTip": "DB_CW_SEM2\\SubTask.aspx*",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-05T18:47:55.446Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
