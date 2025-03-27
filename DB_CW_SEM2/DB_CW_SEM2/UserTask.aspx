@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>User Task Management</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
     <style>
         /* Global Styles */
@@ -14,6 +14,7 @@
             margin: 0;
             padding: 0;
             color: #333;
+            overflow-x: hidden;
         }
 
         /* Navbar Styles */
@@ -33,19 +34,50 @@
                 transform: translateY(-2px);
             }
 
+        /* Dropdown Styles */
+        .dropdown-container {
+            text-align: center;
+            margin: 40px 0 20px 0;
+        }
+
+        .styled-dropdown {
+            width: 100%;
+            max-width: 300px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background-color: #fff;
+            font-size: 16px;
+            color: #333;
+            transition: all 0.3s ease;
+        }
+
+            .styled-dropdown:focus {
+                border-color: #667eea;
+                outline: none;
+                box-shadow: 0 0 5px rgba(102, 126, 234, 0.5);
+            }
+
         /* GridView Styles */
+        .table-responsive {
+            overflow-x: auto;
+            margin: 20px 15px;
+            padding: 0 15px;
+        }
+
         #GridView1 {
             width: 100%;
             border-collapse: collapse;
-            margin: 20px 0;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             animation: fadeIn 1s ease-in-out;
+            background: white;
         }
 
             #GridView1 th, #GridView1 td {
                 padding: 12px;
                 text-align: left;
                 border-bottom: 1px solid #ddd;
+                white-space: nowrap;
             }
 
             #GridView1 th {
@@ -59,53 +91,6 @@
                 transition: background-color 0.3s ease;
             }
 
-        /* FormView Styles */
-        #FormView1 {
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin: 20px auto; /* Center the form */
-            animation: slideIn 0.5s ease-in-out;
-            width: 50%; /* Set an appropriate width */
-            max-width: 600px; /* Limit maximum width */
-        }
-
-            #FormView1 input[type="text"], #FormView1 input[type="email"] {
-                width: 100%;
-                padding: 10px;
-                margin: 8px 0;
-                border: 1px solid #ddd;
-                border-radius: 4px;
-                transition: border-color 0.3s ease;
-            }
-
-                #FormView1 input[type="text"]:focus, #FormView1 input[type="email"]:focus {
-                    border-color: #667eea;
-                    outline: none;
-                }
-
-            #FormView1 .LinkButton {
-                background: linear-gradient(135deg, #667eea, #764ba2);
-                color: #fff;
-                padding: 10px 20px;
-                border: none;
-                border-radius: 4px;
-                cursor: pointer;
-                transition: all 0.3s ease;
-            }
-
-                #FormView1 .LinkButton:hover {
-                    transform: translateY(-2px);
-                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-                }
-
-        /* Center New Button */
-        .new-button-container {
-            text-align: center;
-            margin: 20px 0;
-        }
-
         /* Animations */
         @keyframes fadeIn {
             from {
@@ -116,24 +101,10 @@
                 opacity: 1;
             }
         }
-
-        @keyframes slideIn {
-            from {
-                transform: translateY(20px);
-                opacity: 0;
-            }
-
-            to {
-                transform: translateY(0);
-                opacity: 1;
-            }
-        }
     </style>
 </head>
 <body>
-
-
-    <!-- Bootstrap 5 Navbar -->
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">User Task Management</a>
@@ -158,14 +129,53 @@
     </nav>
 
     <form id="form1" runat="server">
-        <div>
-            <h1>User task</h1>
+        <div class="dropdown-container">
+            <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" 
+                DataSourceID="SqlDataSource1" DataTextField="P_NAME" DataValueField="P_ID"
+                CssClass="styled-dropdown">
+            </asp:DropDownList>
         </div>
+
+        <div class="table-responsive">
+            <asp:GridView ID="GridView1" runat="server" DataSourceID="SqlDataSource2"
+                CssClass="table">
+                <HeaderStyle CssClass="thead-dark" />
+            </asp:GridView>
+        </div>
+
+        <asp:SqlDataSource ID="SqlDataSource2" runat="server" 
+            ConnectionString="<%$ ConnectionStrings:ConnectionString %>" 
+            ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" 
+            SelectCommand="SELECT U_ID AS UserID, 
+                U_NAME AS UserName, 
+                U_EMAIL AS UserEmail, 
+                COMPLETED_TASKS AS CompletedTasks
+                FROM (
+                    SELECT U.U_ID, 
+                        U.U_NAME, 
+                        U.U_EMAIL, 
+                        COUNT(T.T_ID) AS COMPLETED_TASKS
+                    FROM &quot;User&quot; U
+                    JOIN TASKBRIDGE TB ON U.U_ID = TB.U_ID
+                    JOIN TASK T ON TB.T_ID = T.T_ID
+                    WHERE T.T_STATUS = 'Completed'  
+                    AND TB.P_ID = :ProjectID
+                    GROUP BY U.U_ID, U.U_NAME, U.U_EMAIL
+                    ORDER BY COMPLETED_TASKS DESC
+                )
+                WHERE ROWNUM &lt;= 3">
+            <SelectParameters>
+                <asp:ControlParameter ControlID="DropDownList1" Name="ProjectID" PropertyName="SelectedValue" />
+            </SelectParameters>
+        </asp:SqlDataSource>
+        
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
+            ConnectionString="<%$ ConnectionStrings:ConnectionString %>" 
+            ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" 
+            SelectCommand="SELECT &quot;P_ID&quot;, &quot;P_NAME&quot; FROM &quot;PROJECT&quot;"></asp:SqlDataSource>
     </form>
-  
 
     <!-- Bootstrap 5 JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-
 </body>
 </html>
